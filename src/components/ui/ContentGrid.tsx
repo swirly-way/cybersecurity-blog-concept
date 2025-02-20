@@ -1,7 +1,10 @@
 import { Grid, Box } from "@chakra-ui/react";
+import { textContent } from "../../utils/textContent";
 
 export default function Content() {
-  const gridItems = [1, 2, 3, 4, 5, 6];
+  // I want to pass the grid items as props to the ContentGrid component
+  // Every single grid item will be the text content of its own box component
+  const gridItems = [textContent, 2, 3, 4, 5, 6];
 
   return (
     <Grid
