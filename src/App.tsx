@@ -15,7 +15,7 @@ function App() {
       maxW="none"
     >
       <Box
-        bg="darkgreen"
+        bg="darkblue"
         p="4"
         color="white"
         display="flex"
