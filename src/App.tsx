@@ -2,7 +2,7 @@ import "./App.css";
 import { Container, Box, Text } from "@chakra-ui/react";
 import { MdOutlineSecurity } from "react-icons/md";
 import Hero from "./components/ui/Hero";
-import ContentGrid from "./components/ui/ContentGrid";
+import ContentStack from "./components/ui/contentStack.tsx";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
       </Box>
       <Hero />
 
-      <ContentGrid />
+      <ContentStack />
     </Container>
   );
 }
