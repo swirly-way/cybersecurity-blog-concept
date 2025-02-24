@@ -11,7 +11,12 @@ export default function Hero() {
       maxW="100%"
     >
       <Box mb={6}>
-        <Text textStyle="7xl" maxW="900px" width="full">
+        <Text
+          textStyle="7xl"
+          maxW={["550px", "600px", "700px", "900px"]}
+          width="full"
+          fontSize={["40px", "20px", "50px", "60px"]}
+        >
           How Can I As a Junior Web Developer Get Started with Cybersecurity?
         </Text>
       </Box>
