@@ -13,7 +13,7 @@ export default function Content() {
       {boxData.map((box, index) => (
         <Box
           key={index}
-          bg="darkblue"
+          bg="rgba(7, 8, 55, 0.87)"
           height="400px"
           display="flex"
           flexDirection={"column"}
@@ -29,10 +29,10 @@ export default function Content() {
             alignItems="center"
             fontSize={["16px", "20px", "40px", "35px"]}
             ml="4"
-            bg="rgba(255,255,255,0.1)" // Add a subtle background
-            p="3" // Add some padding
-            borderRadius="12px" // Your border radius
-            border="1px solid rgba(255,255,255,0.2)" // Optional: add a subtle border
+            bg="rgba(255,255,255,0.1)"
+            p="3"
+            borderRadius="12px"
+            border="1px solid rgba(255,255,255,0.2)"
           >
             <box.icon />{" "}
             <Text as="strong" ml="2">

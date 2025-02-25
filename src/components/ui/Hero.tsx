@@ -9,6 +9,7 @@ export default function Hero() {
       alignItems="center"
       textAlign="center"
       maxW="100%"
+      bg="rgba(7, 8, 55, 0.87)"
     >
       <Box mb={6}>
         <Text

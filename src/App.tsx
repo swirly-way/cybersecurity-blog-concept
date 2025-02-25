@@ -1,8 +1,9 @@
 import "./App.css";
-import { Container, Box, Text } from "@chakra-ui/react";
-import { MdOutlineSecurity } from "react-icons/md";
+import { Container } from "@chakra-ui/react";
+import Navbar from "./components/ui/Navbar.tsx";
 import Hero from "./components/ui/Hero";
 import ContentStack from "./components/ui/contentStack.tsx";
+import Footer from "./components/ui/Footer.tsx";
 
 function App() {
   return (
@@ -14,21 +15,11 @@ function App() {
       flexDirection="column"
       maxW="none"
     >
-      <Box
-        bg="darkblue"
-        p="4"
-        color="white"
-        display="flex"
-        gap="4"
-        fontSize="25px"
-        alignItems="center"
-      >
-        <MdOutlineSecurity size={40} />
-        <Text>Cybersecurity Essentials</Text>
-      </Box>
+      <Navbar />
       <Hero />
 
       <ContentStack />
+      <Footer />
     </Container>
   );
 }
