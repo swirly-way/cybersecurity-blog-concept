@@ -4,6 +4,7 @@ export default function Hero() {
   return (
     <Container
       mt={20}
+      p={10}
       display="flex"
       flexDirection="column"
       alignItems="center"
