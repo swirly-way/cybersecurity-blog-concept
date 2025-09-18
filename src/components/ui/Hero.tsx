@@ -14,12 +14,13 @@ export default function Hero() {
     >
       <Box mb={6}>
         <Text
+          color="white"
           textStyle="7xl"
           maxW={["550px", "600px", "700px", "900px"]}
           width="full"
           fontSize={["40px", "20px", "50px", "60px"]}
         >
-          How Can I As a Junior Web Developer Get Started with Cybersecurity?
+          How Can A Junior Web Developer Get Started With Cybersecurity?
         </Text>
       </Box>
       <Box>
